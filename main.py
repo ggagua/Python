@@ -25,6 +25,7 @@ print(f'პერსონაჟი {result["name"]} დაიბადა {resu
 #ვქმნით ბაზას,
 conn = sqlite3.connect('star_wars.db')
 cursor = conn.cursor()
+#შექმნა ამოვაკომენტარე, რადგან უკვე შექმნილი არის ჩემს საქაღალდეში SQL ფაილი.
 # cursor.execute('''CREATE TABLE characters
 #                   (id INTEGER PRIMARY KEY,
 #                   name TEXT,
