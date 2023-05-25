@@ -45,6 +45,9 @@ cursor.execute("INSERT INTO characters(name, height, gender, year) VALUES(?, ?, 
 
 conn.commit()
 
+#ვხურავთ ქონექშენს
+conn.close()
+
 
 
 
